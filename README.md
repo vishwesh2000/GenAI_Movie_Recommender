@@ -24,3 +24,7 @@ Good amount of prompt engineering has gone into the making of this project! Hope
 1. This repository has all the requirements to run the application.
 2. The parent folder will be ```multipage_app```. Inside which we will have our python code for the opening page ```Login.py```. We will also have username.txt and users.json here. We will have another folder here ```Pages```.
 3. Inside the ```Pages``` folder, we will have ```Home.py``` and ```Signup.py```. We will also have ```temp_file.txt, username.txt, users.json```.
+
+**Run the code:**
+If you are running from the terminal/shell, set the path to multipage_app and use the command below:
+```streamlit run login.py```
