@@ -1,2 +1,10 @@
-# GenAI_Movie_Recommender
-As part of Google Vertex AI hackathon, this was our humble attempt towards Generative AI based personalized movie recommendation system
+██████╗ ██████╗ ██╗███╗   ███╗███████╗███████╗██╗     ██╗██╗  ██╗
+██╔══██╗██╔══██╗██║████╗ ████║██╔════╝██╔════╝██║     ██║╚██╗██╔╝
+██████╔╝██████╔╝██║██╔████╔██║█████╗  █████╗  ██║     ██║ ╚███╔╝ 
+██╔═══╝ ██╔══██╗██║██║╚██╔╝██║██╔══╝  ██╔══╝  ██║     ██║ ██╔██╗ 
+██║     ██║  ██║██║██║ ╚═╝ ██║███████╗██║     ███████╗██║██╔╝ ██╗
+╚═╝     ╚═╝  ╚═╝╚═╝╚═╝     ╚═╝╚══════╝╚═╝     ╚══════╝╚═╝╚═╝  ╚═╝
+### *➵ Generative AI based personalized movie recommendation approach*
+
+**Working:**
+1. The streamlit multi-page application has 3 pages.
