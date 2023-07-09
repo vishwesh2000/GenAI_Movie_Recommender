@@ -1,0 +1,4 @@
+21
+Male
+Student
+likes Sci-fi movies
