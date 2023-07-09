@@ -49,7 +49,7 @@ def sign_up(users):
                 with open("users.json", "w") as file:
                     json.dump(users, file)  # Save the updated users dictionary to the file
                 st.success("Sign up successful. You can now log in.")
-                with open(r'C:\Users\vishwebh\Desktop\Teleco\multipage_app\Pages\username.txt', 'w') as file:
+                with open('<Location to username.txt>', 'w') as file:
                     for demo in my_list_1:
                         file.write(demo + "\n")
                 
