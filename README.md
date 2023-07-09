@@ -6,6 +6,8 @@
 ╚═╝░░░░░╚═╝░░╚═╝╚═╝╚═╝░░░░░╚═╝╚══════╝╚═╝░░░░░╚══════╝╚═╝╚═╝░░╚═╝
 ### *➵ Generative AI based personalized movie recommendation approach*
 
+Team name: TeleGenAIsis
+
 **Working:**
 1. The streamlit multi-page application has 3 pages (Signup, Login and Home).
 2. The signup page asks few extra questions such as Age, Gender, Occupation and Genre as user demographics info.
