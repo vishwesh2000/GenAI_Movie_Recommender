@@ -48,7 +48,7 @@ rain(
 # similarity_score=pickle.load(open('similarity.pkl','rb'))
 
 def fetch_poster(movie_id):
-    url = "https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US".format(movie_id)
+    url = "https://api.themoviedb.org/3/movie/{}?api_key=<ADD_TMDB_APIKEY_HERE>&language=en-US".format(movie_id)
     data = requests.get(url)
     data = data.json()
     print(data)
@@ -57,7 +57,7 @@ def fetch_poster(movie_id):
     return full_path
 
 def why_this():
-    vertexai.init(project="gen-telegenaisis", location="us-central1")
+    vertexai.init(project="<YOUR_GCP_PROJECT_NAME>", location="us-central1")
     parameters = {
         "temperature": 0.2,
         "max_output_tokens": 256,
@@ -108,7 +108,7 @@ def recommend_gen():
 # Semantic search
 selected_movie = st.text_input('Enter anything!')
 if selected_movie:
-    vertexai.init(project="gen-telegenaisis", location="us-central1")
+    vertexai.init(project="<YOUR_GCP_PROJECT_NAME>", location="us-central1")
     parameters = {
         "temperature": 0.2,
         "max_output_tokens": 256,
@@ -152,7 +152,7 @@ if selected_movie:
                     with col1:
                         st.text(names[i])
                         st.image(poster[i])
-                        vertexai.init(project="gen-telegenaisis", location="us-central1")
+                        vertexai.init(project="<YOUR_GCP_PROJECT_NAME>", location="us-central1")
                         parameters = {
                             "temperature": 0.2,
                             "max_output_tokens": 256,
@@ -176,7 +176,7 @@ if selected_movie:
                     with col2:
                         st.text(names[i])
                         st.image(poster[i])
-                        vertexai.init(project="gen-telegenaisis", location="us-central1")
+                        vertexai.init(project="<YOUR_GCP_PROJECT_NAME>", location="us-central1")
                         parameters = {
                             "temperature": 0.2,
                             "max_output_tokens": 256,
@@ -200,7 +200,7 @@ if selected_movie:
                     with col3:
                         st.text(names[i])
                         st.image(poster[i])
-                        vertexai.init(project="gen-telegenaisis", location="us-central1")
+                        vertexai.init(project="<YOUR_GCP_PROJECT_NAME>", location="us-central1")
                         parameters = {
                             "temperature": 0.2,
                             "max_output_tokens": 256,
@@ -224,7 +224,7 @@ if selected_movie:
                     with col4:
                         st.text(names[i])
                         st.image(poster[i])
-                        vertexai.init(project="gen-telegenaisis", location="us-central1")
+                        vertexai.init(project="<YOUR_GCP_PROJECT_NAME>", location="us-central1")
                         parameters = {
                             "temperature": 0.2,
                             "max_output_tokens": 256,
@@ -277,7 +277,7 @@ else:
 
     """
 
-    vertexai.init(project="gen-telegenaisis", location="us-central1")
+    vertexai.init(project="<YOUR_GCP_PROJECT_NAME>", location="us-central1")
     parameters = {
         "temperature": 0.2,
         "max_output_tokens": 256,
@@ -311,7 +311,7 @@ else:
                     with col1:
                         st.text(names[i])
                         st.image(poster[i])
-                        vertexai.init(project="gen-telegenaisis", location="us-central1")
+                        vertexai.init(project="<YOUR_GCP_PROJECT_NAME>", location="us-central1")
                         parameters = {
                             "temperature": 0.2,
                             "max_output_tokens": 256,
@@ -335,7 +335,7 @@ else:
                     with col2:
                         st.text(names[i])
                         st.image(poster[i])
-                        vertexai.init(project="gen-telegenaisis", location="us-central1")
+                        vertexai.init(project="<YOUR_GCP_PROJECT_NAME>", location="us-central1")
                         parameters = {
                             "temperature": 0.2,
                             "max_output_tokens": 256,
@@ -359,7 +359,7 @@ else:
                     with col3:
                         st.text(names[i])
                         st.image(poster[i])
-                        vertexai.init(project="gen-telegenaisis", location="us-central1")
+                        vertexai.init(project="<YOUR_GCP_PROJECT_NAME>", location="us-central1")
                         parameters = {
                             "temperature": 0.2,
                             "max_output_tokens": 256,
@@ -383,7 +383,7 @@ else:
                     with col4:
                         st.text(names[i])
                         st.image(poster[i])
-                        vertexai.init(project="gen-telegenaisis", location="us-central1")
+                        vertexai.init(project="<YOUR_GCP_PROJECT_NAME>", location="us-central1")
                         parameters = {
                             "temperature": 0.2,
                             "max_output_tokens": 256,
