@@ -8,10 +8,11 @@
 
 **Disclaimer:** This project focuses on content recommendation using ```Google Vertex AI Language models```. If you're new to the ```Google Cloud Platform (GCP)``` and prefer to explore ```free alternatives```, here's how you can get started:
 
-1. Navigate to the multipage_app folder in this repository.
-2. Inside the multipage_app folder, you'll find another folder named Pages.
-3. Locate the home.py file inside the Pages folder, which currently utilizes the Google Vertex AI language model.
-4. To use the free alternative, simply replace the existing home.py file with the one available outside the multipage_app folder in this repository. The alternative version uses Cohere language models, which are free but come with a rate limit of 5 API calls per minute (As of August 2023).
+1. Navigate to the ```multipage_app folder``` in this repository.
+2. Inside the ```multipage_app folder```, you'll find another folder named ```Pages```.
+3. Locate the ```home.py``` file inside the Pages folder, which currently utilizes the ```Google Vertex AI language model```.
+4. To use the ```free alternative```, simply replace the existing home.py file with the one available ```outside the multipage_app folder``` in this repository. The alternative version uses ```Cohere language models```, which are free but come with a rate limit of 5 API calls per minute (As of August 2023).
+
 
 **Working:**
 1. The streamlit multi-page application has 3 pages (Signup, Login and Home).
